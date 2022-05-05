@@ -2,7 +2,11 @@ package Logica;
 import Dominio.*;
 import java.util.*;
 import java.io.*;
-
+/*
+ * Daniel Salazar
+ * Chriss Brito 
+ * Gabriel Zuleta
+ */
 public class App {
 
 	public static void main(String[] args) throws IOException {

@@ -95,14 +95,6 @@ public class ListaProductos {
     	productos[indice].setPrecio(precio);
     }
     
-    public void agregarProducto(String nombreP,int stock,int precio) {
-        int indice=indiceProducto(nombreP);
-        if(indice==-1){
-            productos[cont]=new Producto(nombreP,stock,precio);    
-            cont+=1;
-        }
-    }
-    
     public void ingresarProducto(Producto producto){
         if(max > cont){
             productos[cont] = producto;
