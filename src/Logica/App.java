@@ -93,6 +93,7 @@ public class App {
 	/**
 	 * with this function the user or ADMIN will be able to log in in order to interact with the system
 	 * @param sistema - system
+	 * @return true/false - to end or continue the main cicle
 	 */	
 	public static boolean iniciarSesion(ListaClientes clientes,ListaProductos productos) {
         Scanner leer = new Scanner(System.in);

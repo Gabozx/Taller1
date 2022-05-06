@@ -99,7 +99,7 @@ public class ListaClientes {
         if (clientes[i].getContraseña().equals(contraseña)) { //si usuario y contraseña coinciden
         	return i;
         }
-        else { 
+        else { // se equivocò en la contraseña
         	return -2;
         }
     }
